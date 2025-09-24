@@ -1,0 +1,21 @@
+# 统一文本文件换行符为 LF（Unix 风格）
+* text=auto eol=lf
+
+# Markdown 文件始终作为文本处理，确保 diff 清晰
+*.md text diff=markdown
+
+# 文档类文件
+*.txt text
+*.json text
+*.yml  text
+*.yaml text
+
+# 图片等二进制文件，不做 diff
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+
+# GitHub 语言统计优化：忽略文档文件
+*.md linguist-documentation

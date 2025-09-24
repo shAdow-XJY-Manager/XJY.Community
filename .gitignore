@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日志 / 临时文件
+*.log
+*.tmp
+
+# Node / Python (防止误传无关文件)
+node_modules/
+__pycache__/
+*.pyc
